@@ -1,0 +1,43 @@
+/* === SLIDE UP ANIMATION === */
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.4s ease;
+}
+.slide-up-enter-from {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.slide-up-enter-to {
+  opacity: 1;
+  transform: translateY(0);
+}
+.slide-up-leave-from {
+  opacity: 1;
+  transform: translateY(0);
+}
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* === SLIDE LEFT ANIMATION === */
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: all 0.4s ease;
+}
+.slide-left-enter-from {
+  opacity: 0;
+  transform: translateX(40px);
+}
+.slide-left-enter-to {
+  opacity: 1;
+  transform: translateX(0);
+}
+.slide-left-leave-from {
+  opacity: 1;
+  transform: translateX(0);
+}
+.slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(-40px);
+}

@@ -1,0 +1,8 @@
+@import './base.css';
+@import './transitions.css';
+@theme {
+  --color-primary: #e3010f;
+  --color-secondary: #fff;
+  --color-danger: crimson;
+  --color-success: green;
+}
