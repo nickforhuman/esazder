@@ -36,9 +36,9 @@
   </nav>
 
   <!-- mobile menu start  -->
-  <nav class="w-full flex md:hidden justify-center items-center fixed bottom-0">
+  <nav class="w-full z-50 flex md:hidden justify-center items-center fixed bottom-0">
     <ul
-      class="w-full flex justify-around items-center px-2 py-3 m-2 bg-secondary/10 backdrop-blur-md border border-gray-200 rounded-2xl"
+      class="w-full flex justify-around items-center px-2 py-4 m-2 bg-secondary/30 backdrop-blur-md border border-gray-200 text-gray-600 rounded-2xl"
     >
       <li @click="mobileMenuToggle()" class="cursor-pointer">
         <Ellipsis />
@@ -158,7 +158,7 @@
           >
         </ul>
         <ul class="flex flex-col gap-2">
-          <li class="text-gray-400 text-center">Kısa linkler</li>
+          <li class="text-gray-400 text-center">Diğer linkler</li>
           <li>
             <router-link to="/" class="px-2 py-1 border-b-2 border-b-gray-400 m-2"
               >Example</router-link
